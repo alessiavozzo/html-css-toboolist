@@ -81,6 +81,7 @@ h3{
 
 .to_do_list{
     margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
 }
 
 .circle{
@@ -93,7 +94,7 @@ h3{
 .post-it{
     font-size: 0.7rem;
     border-radius: 0.8rem;
-    padding: 0.3rem;
+    padding: 0.3rem 0.5rem;
     color: var(--bool-light);
 }
 
