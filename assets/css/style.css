@@ -13,7 +13,8 @@
 }
 
 body{
-    background-color: var(--bool-primary)
+    background-color: var(--bool-primary);
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -31,15 +32,55 @@ yellow: rgba(176, 201, 38, 1);
 
 .logo{
     background-color: var(--bool-light);
+    padding: 0.2rem;
 }
 
 .logo_img{
-    vertical-align: bottom;
+    vertical-align: top;
     margin-left: 0.5rem;
 }
 
 .logo_text{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
 }
+
+/* Main */
+/* Nav menu */
+#site_main{
+    padding: 2rem;
+}
+
+.container{
+    width: 80%;
+    background-color: var(--bool-light);
+    margin: auto;
+    margin-bottom: 0.2rem;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.menu{
+    padding-left: 1.5rem;
+}
+
+.add{
+    display: inline-block;
+    border: 1px solid;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+}
+
+.task{
+    background-color: var(--bool-secondary);
+    border-color: var(--bool-secondary);
+    color: var(--bool-light)
+}
+
+.section{
+    background-color: var(--bool-light);
+    color: darkgrey;
+}
+
+/* List menu */
