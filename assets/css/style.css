@@ -1,4 +1,9 @@
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
 /* Color Palette */
 :root{
     --bool-dark: rgba(0, 0, 0, 1);
@@ -6,6 +11,12 @@
     --bool-primary: rgba(246, 248, 249, 1);
     --bool-secondary: rgba(71, 173, 241, 1);
 }
+
+body{
+    background-color: var(--bool-primary)
+}
+
+
 
 /* 
 Colors:
@@ -15,3 +26,20 @@ orange: rgba(242, 158, 51, 1);
 pink: rgba(216, 99, 160, 1);
 yellow: rgba(176, 201, 38, 1);
 */
+
+/* Header */
+
+.logo{
+    background-color: var(--bool-light);
+}
+
+.logo_img{
+    vertical-align: bottom;
+    margin-left: 0.5rem;
+}
+
+.logo_text{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
