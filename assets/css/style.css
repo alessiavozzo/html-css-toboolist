@@ -4,13 +4,14 @@
     margin: 0;
 }
 
-/* Color Palette */
+/* #region Color Palette */
 :root{
     --bool-dark: rgba(0, 0, 0, 1);
     --bool-light: rgba(255, 255, 255, 1);
     --bool-primary: rgba(246, 248, 249, 1);
     --bool-secondary: rgba(71, 173, 241, 1);
 }
+/* #endregion Color Palette */
 
 body{
     background-color: var(--bool-primary);
@@ -18,7 +19,7 @@ body{
 }
 
 
-/* Header */
+/* #region Header */
 
 .logo{
     background-color: var(--bool-light);
@@ -34,8 +35,9 @@ body{
     font-size: 2.3rem;
     font-weight: bold;
 }
+/* #endregion Header */
 
-/* Main */
+/* #region Main */
 /* Nav menu */
 #site_main{
     padding: 2rem;
@@ -101,8 +103,9 @@ h3{
 .list_element{
     margin-bottom: 1.5rem;
 }
+/* #endregion Main */
 
-/* Colors */
+/* #region Colors */
 
 .checkmark{
     color: green;
@@ -137,3 +140,5 @@ h3{
 .sales{
     background-color: rgba(176, 201, 38, 1);
 }
+
+/* #endregion Colors */
